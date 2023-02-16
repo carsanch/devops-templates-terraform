@@ -40,3 +40,37 @@ Explains different types of testing (manual + automated) for Terraform modules a
 ## 09 - Developer Workflows + CI/CD
 
 Covers how teams can work together with Terraform and how to set up CI/CD pipelines to keep infrastructure environments up to date.
+
+## Links
+### AWS Provider
+https://registry.terraform.io/providers/hashicorp/aws/latest
+
+-------------------------------------------
+### AWS Modules
+ec2-instance
+https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest
+
+vpc
+https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest
+
+security-group
+https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/latest
+
+-------------------------------------------
+### Resource
+aws_instance
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance
+
+aws_security_group
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
+
+aws_security_group_rule
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule
+
+aws_s3_bucket
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
+
+
+-------------------------------------------
+### Amazon EC2 AMI Locator
+https://cloud-images.ubuntu.com/locator/ec2/
